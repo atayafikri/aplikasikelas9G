@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+	height:100%;
+}
+
+.banner{
+	margin-top: 40px;
+	margin-left: 30px;
+	
+}
+
+.alertt{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+.gambar1 img{
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.card{
+	margin-top: 80px;
+	background-color: #EEF5FF;
+}
+
+.card h3{
+	margin-top: 20px;
+    text-align: center;
+}
+
+.card h4{
+	margin-top: 80px;
+	margin-left: 60px;
+}
+
+.card2{
+	width: 30%;
+}
+
+.senin{
+	margin-left: 20px;
+	background-color: #86B6F6;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.senin h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.judul{
+	margin-top: -30px;
+}
+
+.selasa{
+	margin-left: 20px;
+	background-color: #86B6F6;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.selasa h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.rabu{
+	margin-left: 20px;
+	background-color: #86B6F6;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.rabu h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.kamis{
+	margin-left: 20px;
+	background-color: #86B6F6;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.kamis h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.jumat{
+	margin-left: 20px;
+	background-color: #86B6F6;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.jumat h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.piket{
+	margin-left: 80px;
+}
+
+.piket h3{
+	text-align: center;
+	margin-left: -60px;
+	margin-top: 50px;
+}
+
+.dropdown button{
+	width: 100px;
+	margin-top: 50px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.senin2{
+	margin-left: -30px;
+}
+
+.selasa2{
+	float: right;
+	margin-right: 40px;
+	margin-top: -85px;
+}
+
+.selasa2 span{
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.rabu2{
+	margin-top: 50px;
+	margin-left: -30px;
+}
+
+.kamis2{
+	float: right;
+	margin-top: -90px;
+	margin-right: 40px;
+}
+
+.jumat2{
+	display: grid;
+	place-items: center;
+	margin-left: -70px;
+}
+
+.card img{
+	width: 200px;
+}
+
+.gambar img{
+	margin-left: 100px;
+	margin-top: 100px;
+	cursor: pointer;
+}
+
+.ombak{
+	margin-top: 80px;
+}
+
+.agama-alert{
+	width: 20%;
+}
+
+.agama-alert .card h5{
+	color: red;
+}
+
+.tugas-bindo{
+	width: 20%;
+	margin-left: 35px;
+	margin-top: 250px;
+}
+
+.tugas-bindo .card h5{
+	color: red;
+}
+
+.senbud-alert .card{
+	width: 20%;
+	margin-left: 35px;
+	margin-top: 250px;
+}   
+
+.senbud-alert .card h5{
+	color: red;
+}
+
+.senbud-alert .card span{
+	color: red;
+}   
+
+.prakarya-alert .card{
+	width: 20%;
+	margin-left: 40px;
+	margin-top: 250px;
+} 
+
+.prakarya-alert .card h5{
+	color: red;
+}
+
+.reminder{
+	width: 80%;
+	margin-top: 70px;
+	margin-left: 30px;
+}
+
+.reminder span{
+	color: red;
+}
+
+.reminder span{
+	color: red;
+}
+
+.maaf{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.maaf span{
+	color: red
+}
+
+.tes h1{
+	color:aquamarine;
+}
+
+.prakarya-alert .card-body a{
+	margin-top: 20px;
+}
+

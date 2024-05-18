@@ -13,6 +13,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM pengumuman ORDER BY id DESC");
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kelas 9G</title>
+	<!-- start title image logo  -->
+    <link rel="icon" href="images/9G.png" />
+    <!-- end start title image logo  -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!-- atar 10/05/2024 : start koneksi css -->

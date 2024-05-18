@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD SEKOLAH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
             </div>
         </nav>
     </div>
-    <div class="judul mt-4 ms-2 text-center">
+    <div class="judul mt-5 ms-2 text-center">
         <h2>DAFTAR TUGAS</h2>
     </div>
     <br />
@@ -46,6 +47,7 @@
                 <th>Hari/Tanggal</th>
                 <th>Tugas</th>
                 <th>Mapel</th>
+                <th>Deadline</th>
                 <th>OPSI</th>
             </tr>
         </thead>
@@ -60,6 +62,7 @@
                 <td><?php echo $d['haritanggal']; ?></td>
                 <td><?php echo $d['tugas']; ?></td>
                 <td><?php echo $d['mapel']; ?></td>
+                <td><?php echo $d['deadline']; ?></td>
                 <td>
                     <a class="btn btn-success" href="edittugas.php?id=<?php echo $d['id']; ?>" role="button">EDIT</a>
                     <a class="btn btn-danger" href="deletetugas.php?id=<?php echo $d['id']; ?>" role="button">HAPUS</a>

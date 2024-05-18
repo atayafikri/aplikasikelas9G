@@ -8,7 +8,7 @@
 
 <body>
     <div class="judul text-center mt-4">
-        <h2>EDIT PENGUMUMAN</h2>
+        <h2>EDIT TUGAS</h2>
     </div>
     <br />
     <a class="btn btn-success ms-4 mb-4" href="admintugas.php" role="button">Kembali</a>
@@ -35,7 +35,11 @@
                     <label for="mapel4" class="sr-only">Mata Pelajaran</label>
                     <input type="text" class="form-control" id="mapel4" placeholder="Masukan mapel" name="mapel" value="<?php echo $d['mapel']; ?>">
                 </div>
-                <button type="submit" name="Submit" value="Add" class="btn btn-primary ms-3 mt-2">Update</button>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="deadline4" class="sr-only">Mata Pelajaran</label>
+                    <input type="text" class="form-control" id="deadline4" placeholder="Masukan deadline" name="deadline" value="<?php echo $d['deadline']; ?>">
+                </div>
+                <button type="submit" name="Submit" value="Add" class="btn btn-primary ms-3 mt-2" href="admintugas.php">Update</button>
 
             </form>
         </div>

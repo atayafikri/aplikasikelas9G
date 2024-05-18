@@ -26,6 +26,10 @@
                 <label for="mapel2" class="sr-only">Mata Pelajaran</label>
                 <input type="text" class="form-control" id="mapel2" placeholder="Masukan mapel" name="mapel">
             </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="deadline2" class="sr-only">Deadline</label>
+                <input type="text" class="form-control" id="deadline" placeholder="Masukan dealine" name="deadline">
+            </div>
             <button href="admintugas.php" type="submit" name="Submit" value="Add" class="btn btn-primary ms-3 mt-2">Submit</button>
 
         </form>
@@ -38,12 +42,13 @@
         $haritanggal = $_POST['haritanggal'];
         $tugas = $_POST['tugas'];
         $mapel = $_POST['mapel'];
+        $deadline = $_POST['deadline'];
 
         // include database connection file
         include_once("koneksi.php");
 
         // Insert user data into table
-        $result = mysqli_query($mysqli, "INSERT INTO tugas(haritanggal,tugas,mapel) VALUES('$haritanggal','$tugas','$mapel')");
+        $result = mysqli_query($mysqli, "INSERT INTO tugas(haritanggal,tugas,mapel,deadline) VALUES('$haritanggal','$tugas','$mapel','$deadline')");
 
         header("location:admintugas.php");
         // Show message when user added

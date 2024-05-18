@@ -22,19 +22,19 @@
 							<a class="nav-link active" aria-current="page" href="index.php">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#pengumuman">pengumuman</a>
+							<a class="nav-link" href="index.php">pengumuman</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#jadwal">Jadwal Mapel</a>
+							<a class="nav-link" href="index.php">Jadwal Mapel</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#jadwal-piket">Jadwal piket</a>
+							<a class="nav-link" href="index.php">Jadwal piket</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#tugas">Tugasku</a>
+							<a class="nav-link" href="index.php">Tugasku</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#reminder">Reminder</a>
+							<a class="nav-link" href="index.php">Reminder</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="tugasinformasi.php">Tugas dan informasi</a>
@@ -44,7 +44,7 @@
 			</div>
 		</nav>
 	</div>
-    <div class="judul mt-4 ms-2 text-center">
+    <div class="judul mt-5 ms-2 text-center" style="margin-top: 50px;">
         <h2>DAFTAR TUGAS</h2>
     </div>
     <br />
@@ -57,6 +57,7 @@
                 <th>Hari/Tanggal</th>
                 <th>Tugas</th>
                 <th>Mapel</th>
+                <th>Deadline</th>
             </tr>
         </thead>
         <?php
@@ -70,6 +71,7 @@
                 <td><?php echo $d['haritanggal']; ?></td>
                 <td><?php echo $d['tugas']; ?></td>
                 <td><?php echo $d['mapel']; ?></td>
+                <td><?php echo $d['deadline']; ?></td>
             </tr>
         <?php
         }

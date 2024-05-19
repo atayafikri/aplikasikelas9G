@@ -33,7 +33,7 @@
             </div>
         </nav>
     </div>
-    <div class="judul mt-5 ms-2 text-center">
+    <div class="judul mt-5 ms-2 pt-5 text-center">
         <h2>DAFTAR PENGUMUMAN</h2>
     </div>
     <br />

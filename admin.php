@@ -20,14 +20,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav  ms-auto">
                     <li class="nav-item">
-                            <a class="nav-link" href="admin.php">pengumuman</a>
+                            <a class="nav-link" href="admin.php">Pengumuman</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="admintugas.php">Tugas dan informasi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Log Out</a>
+                            <a class="nav-link" href="adminsiswa.php">Daftar Siswa</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="adminguru.php">Daftar Guru</a>
+                        </li>
+                        <li class="nav-item">
+							<a class="btn btn-danger" href="logout.php" role="button">Logout</a>
+						</li>
                     </ul>
                 </div>
             </div>

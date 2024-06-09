@@ -40,38 +40,34 @@
         </nav>
     </div>
     <div class="judul mt-5 ms-2 pt-5 text-center">
-        <h2>DAFTAR TUGAS</h2>
+        <h2>DAFTAR GURU</h2>
     </div>
     <br />
-    <a class="btn btn-primary m-3" href="addtugas.php" role="button">+ TAMBAH</a>
+    <a class="btn btn-primary m-3" href="addguru.php" role="button">+ TAMBAH</a>
     <br />
     <br />
     <table class="table m-3">
         <thead>
             <tr>
                 <th>NO</th>
-                <th>Hari/Tanggal</th>
-                <th>Tugas</th>
-                <th>Mapel</th>
-                <th>Deadline</th>
+                <th>Nama</th>
+                <th>Mata Pelajaran</th>
                 <th>OPSI</th>
             </tr>
         </thead>
         <?php
         include_once('koneksi.php');
         $no = 1;
-        $data = mysqli_query($mysqli, "SELECT * FROM tugas ORDER BY id DESC");
+        $data = mysqli_query($mysqli, "SELECT * FROM guru ORDER BY id DESC");
         while ($d = mysqli_fetch_array($data)) {
         ?>
             <tr>
                 <td><?php echo $no++; ?></td>
-                <td><?php echo $d['haritanggal']; ?></td>
-                <td><?php echo $d['tugas']; ?></td>
-                <td><?php echo $d['mapel']; ?></td>
-                <td><?php echo $d['deadline']; ?></td>
+                <td><?php echo $d['nama']; ?></td>
+                <td><?php echo $d['matapelajaran']; ?></td>
                 <td>
-                    <a class="btn btn-success" href="edittugas.php?id=<?php echo $d['id']; ?>" role="button">EDIT</a>
-                    <a class="btn btn-danger" href="deletetugas.php?id=<?php echo $d['id']; ?>" role="button">HAPUS</a>
+                    <a class="btn btn-success" href="editguru.php?id=<?php echo $d['id']; ?>" role="button">EDIT</a>
+                    <a class="btn btn-danger" href="deleteguru.php?id=<?php echo $d['id']; ?>" role="button">HAPUS</a>
                 </td>
             </tr>
         <?php
